@@ -2,10 +2,10 @@
 
 int main()
 {
-	int a = 17, b = 2;
-	float div;
 
-	div = a / b;
-	printf("The result is %.2f\n", div);
+	int a = 15, b = 2;
+	float div;
+	div = (float)a / b;
+	printf("The result of typecasting is %f", div);
 	return 0;
 }
